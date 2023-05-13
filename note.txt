@@ -35,3 +35,8 @@ THỰC HÀNH TẠO NHÁNH VÀ ĐẨY NHÁNH LÊN REMOTE repository
 B1: Tạo nhánh và chuyển sang nhánh đó
 B2: đẩy nhưngc sự thay đổi staging area, sau đó tạo commit và dùng lệnh git push -u origin TÊNNHÁNHMỚI vì nhánh này lần đầu đẩy lên remote repository
 
+
+Merge nhánh: khi mà merge cần phải xác định xem nhánh nào sẽ đc lấy code vào bên trong
+trước tiên mình xác định sẽ lấy tất cả code của nhánh devkhai bỏ vào nhánh master
+đi tới ngay tại nhánh sẽ đc thêm code vào và chạy lệnh: git merge + tennhanhduocmerge
+
