@@ -22,10 +22,16 @@ B3: Đẩy các đoạn code lên trên github lưu trữ bằng 3 thần thánh
 
 
 tạo nhánh (Branch)
-    Lệnh tạo nhánh:git branch + tên nhánh
+    + Lệnh tạo nhánh:git branch + tên nhánh
     vd: git brach devPhuong
-    Lệnh kiểm tra nhánh đã tạo : git branch
-    Lệnh để chuyển sang một nhánh khác: git checkout tenNhanh
+    + Lệnh kiểm tra nhánh đã tạo : git branch
+    + Lệnh để chuyển sang một nhánh khác: git checkout tenNhanh
     khi chúng ta có 1 số thay đổi code bên 1 nhánh, khi chuyển qua 1 nhánh mới, cần phải thực hiện 2 lệnh, git add . để đẩy tất cả file thay đổi lên staging area và sau đó mình cần chạy lệnh git commit -m "" để ghi lại phiên bản code tại nhánh đó
+    + Lệnh tạo ra 1 nhánh mới và chuyển tới nhánh đó: git checkout -b + tenNhanh
+    Lưu ý khi tạo 1 nhánh: khi chúng ta tạo 1 nhánh thì tất cả code có trong nhánh đó sẽ giống với code chúng ta đứng tạo
+    + Lệnh xóa nhánh: git branch -d + tenNhanh
 
+THỰC HÀNH TẠO NHÁNH VÀ ĐẨY NHÁNH LÊN REMOTE repository
+B1: Tạo nhánh và chuyển sang nhánh đó
+B2: đẩy nhưngc sự thay đổi staging area, sau đó tạo commit và dùng lệnh git push -u origin TÊNNHÁNHMỚI vì nhánh này lần đầu đẩy lên remote repository
 
