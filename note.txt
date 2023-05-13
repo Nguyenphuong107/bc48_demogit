@@ -40,3 +40,9 @@ Merge nhánh: khi mà merge cần phải xác định xem nhánh nào sẽ đc l
 trước tiên mình xác định sẽ lấy tất cả code của nhánh devkhai bỏ vào nhánh master
 đi tới ngay tại nhánh sẽ đc thêm code vào và chạy lệnh: git merge + tennhanhduocmerge
 
+ở đây mình test lệnh git merge lần thứ 2
+
+
+
+
+
